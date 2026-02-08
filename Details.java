@@ -4,8 +4,8 @@ import java.util.Scanner;
 class Book {
 
     // private variables → data hiding (Encapsulation)
-    private int bookid;
-    private String bookname;
+    private final int bookid;
+    private final String bookname;
     private double price;
 
     // constructor to initialize object
